@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+.mt {
+  margin-top: 35px;
+}
+
+.cm {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.cp {
+  padding: 0 12px;
+}
+
+.header {
+  text-align: center;
+  background-color: #1d2b48;
+  margin-bottom: 100px;
+}
+
+.header h1 {
+  color: #fff;
+  padding: 42px 0;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* card-section design starts here */
+
+.card {
+  border: none;
+}
+
+.card-box-shadow {
+  height: -webkit-fill-available;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* ends here */
+
+/* card-details serction design starts here */
+
+.c-col {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.card-details {
+  border: 1px solid #cdc5c5bd;
+  padding: 20px;
+}
+
+.card-details h3 {
+  color: #333333;
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 1.67rem;
+  font-weight: 500;
+}
+
+.category a {
+  text-decoration: none;
+  color: red;
+}
+
+.category a:hover {
+  color: #333333;
+}
+
+/* ends here */
